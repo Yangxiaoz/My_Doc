@@ -1,5 +1,6 @@
-# TJU-ECC_Doc
-Summary of knowledge on heterogeneous computing acceleration in the field of AI
+# TJU-ECC_EdgeAI Doc
+
+Summary of knowledge on edge computing acceleration in the field of AI
 
 
 ## 说明
@@ -19,18 +20,20 @@ Summary of knowledge on heterogeneous computing acceleration in the field of AI
 | Architecture | 关于异构计算机体系结构相关内容|[Link](./Architecture/README.md)|
 | Inference | 关于算法推理与优化相关理论内容 |[Link](./Inference/README.md)|
 | Practice | 关于LLM领域开源项目与应用收录 |[Link](./Practice/README.md)|
-| Paper | 关于领域相关论文收录   |[Link](./Paper/README.md)|
-| Tools | 一些实用的小工具   |[Link](./Tools/README.md)|
+| Tools | 实践工具与开发工具收录 |[Link](./Tools/README.md)|
 | images | 放置文档图片   | -|
 
 
 ## 其他资源收录
 
-| 名称  | 简介       | 地址    |
-|:---:|:----- |:--- |
-| AISystem | 关于AI系统的全栈知识课程   | [Link](https://github.com/chenzomi12/AISystem)|
+| 名称  | 简介       | 源自    |地址    |
+|:---:|:---:|:---:|:---:|
+| AISystem | 关于AI系统的全栈知识介绍| Github  | [Link](https://github.com/chenzomi12/AISystem)|
+| ... | ... | ...|...|
 
 ## 备注
+
+
 
 > create by yxl
 

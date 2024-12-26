@@ -1,23 +1,33 @@
 # Computer Architecture
 Summary of theoretical knowledge on Heterogeneous Computer Architecture
 
-## 说明
-
 本仓库主要为计算机体系结构相关知识总结
 
 
+## 学习资料：
+
+| 名称  | 简介       | 源自  |链接|
+|:---:|:----: |:--- |:---:|
+| CSAPP | CMU计算机体系结构视频课程|Bilibili|[Link](https://www.bilibili.com/video/BV1Pm4y1P7XP/?spm_id_from=333.1387.favlist.content.click&vd_source=ffd358de576192fb36c26e0aa712f76f)|
+| CSAPP_Doc | CSAPP课程网站、实验lab  |Web | [Link](http://csapp.cs.cmu.edu/) |
+| 操作系统 | 南京大学jyy操作系统课程  |Web | [Link](https://jyywiki.cn/OS/2024/) |
+| 计算机网络 | 中科大计网（自顶向下方法 第7版）  |Bilibili | [Link](https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.1387.favlist.content.click&vd_source=ffd358de576192fb36c26e0aa712f76f) |
+| CUDA_Doc | Cuda Toolkit Doc12.4(注意版本选择)  |Web | [Link](https://docs.nvidia.com/cuda/archive/12.4.0/) |
+| CUDA_samples| Samples for CUDA Developers which demonstrates features in CUDA Toolkit|Github | [Link](https://github.com/NVIDIA/cuda-samples) |
 
 
-## 文档目录
 
-文档主要涵盖以下内容：
+
+
+## 学习总结
+
+以下为学习归纳总结部分目录
 
 | 名称  | 简介       | 地址    |状态|
 |:---:|:----: |:--- |:---:|
-| CPU | ..|[Link]()|Todo|
-| GPU | ..|[Link]()|Todo|
-| NPU | ..|[Link]()|Todo|
-| ... | -     |-      | Todo |
+| CPU | CPU相关计算机体系结构内容|-|☁️ Todo|
+| GPU | GPU相关体系结构内容|[Link](./GPU_Home.md)|🔬 Updating|
+| NPU | ..|-|☁️Todo|
+| ... | -     |-      | ... |
 
-## 学习资料：
 
