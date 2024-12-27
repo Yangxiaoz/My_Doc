@@ -19,7 +19,6 @@
 | 名称  | 简介       | 源自    |地址|
 |:---:|:----: |:---: |:---:|
 | Perfetto | 系统性能分析与应用程序调用trace可视化工具|Web|[Link](https://perfetto.dev/)|
-|Nvidia Nsight | Nvidia平台官方性能监测可视化平台|Nvidia|Todo|
+|Nvidia Nsight | Nvidia平台官方性能监测可视化平台|Nvidia|[Link](./Nsight.md)|
 |EvalScope | llm模型评测与性能基准测试框架|Github|[Link](https://github.com/modelscope/evalscope/tree/main)|
 | ... | -     |-      | - |
-
