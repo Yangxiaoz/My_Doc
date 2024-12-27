@@ -33,6 +33,7 @@ Summary of knowledge on edge computing acceleration in the field of AI
 
 ## 备注
 
+✅🚧 ☁️ 🔬 
 
 
 > create by yxl

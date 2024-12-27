@@ -6,9 +6,9 @@
 
 | 序号 | 简介       | 地址 | 状态|
 |:---:|:---- |:--- |:---:| 
-| 1 | GPU原理基础：How GPU Computing Works |[Link](./GPU_00.md)| ✅Done|
-| 2 |GPU Programming Model|-| ☁️ Todo|
-| 3 |GPU Hardware Implementation|-| ☁️ Todo|
+| 1 | GPU基础原理：How GPU Computing Works |[Link](./GPU_00.md)| ✅Done|
+| 2 |GPU硬件介绍：Hardware Implementation|[Link](GPU_01.md)| 🚧Unfinished|
+| 3 |GPU编程基础框架： Programming Model|-| ☁️ Todo|
 | ... |-|-| ...|
 
 
@@ -20,3 +20,5 @@
 | 2 |-|-| -|
 | 3 |-|-| -|
 | - |-|-| -|
+
+

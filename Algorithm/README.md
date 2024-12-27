@@ -2,7 +2,7 @@
 Summary of theoretical knowledge on AI
 
 
-本仓库主要为AI基础算法相关知识
+本页主要为AI基础算法相关知识
 
 
 ## 一、Deep Learning学习资料：
@@ -23,9 +23,10 @@ Deep Learning 不同架构分枝文档目录：
 
 | 名称  | 简介       | 地址    |状态|
 |:---:|:----: |:---: |:---:|
-| CNN | 关于卷积神经网络|-|☁️ Todo|
-| RNN | 关于循环神经网络|-|☁️ Todo|
-| Transformer | 关于Transformer & llm的基础理论|[Link](./Transformer_Home.md)|🔬 Updating|
+| CNN_base | 以CNN卷积神经网络为架构基础的相关理论算法|-|☁️ Todo|
+| RNN_base | 以RNN卷积神经网络为架构基础的相关理论算法|-|☁️ Todo|
+| Transformer_base | 关于Transformer & llm的基础理论|[Link](./Transformer_Home.md)|🔬 Updating|
+| ViT | Vision Transformer,视觉注意力机制    |-      |☁️ Todo  |
 | ... | -     |-      |-       |
 
 

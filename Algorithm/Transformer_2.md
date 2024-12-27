@@ -53,4 +53,4 @@
 
 以上便是LLM在Perfill过程中Attention算子计算的全部过程。后续推理的Decode过程、KV cache以及模型参数的计算将会在下一章给出。
 
-> Click here to jump the :[Todo]()
+> Click here to jump the Next Chapter : (ops!To be done)
