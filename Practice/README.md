@@ -1,10 +1,10 @@
 # Practice
 
-本页为一些开源项目的集中收录
+本页为一些开源项目的集中收录与实践工程问题记录总结
 
 
 
-## 文档目录
+## 一、项目收录
 
 1. 面向商用化的LLM推理框架
 
@@ -27,3 +27,18 @@
 | llama2.c | Inference Llama 2 in one file of pure C |[Link](https://github.com/karpathy/llama2.c)| C|
 | calm | CUDA/Metal accelerated language model inference |[Link](https://github.com/zeux/calm)| C|
 | yalm |  LLM inference in C++/CUDA, no libraries except for I/O(专注于原理、代码可读性的科研实验项目) |[Link](https://github.com/andrewkchan/yalm)| C++|
+
+
+## 二、项目部署记录
+
+### 1. llama.cpp
+
+| 序号 | 内容    | 地址    |状态|
+|:---:|:----: |:--- |:---:|
+| 00 | Build and Run|-|☁️Todo|
+| 01 |Understanding how LLM inference works with llama.cpp  |[Link](https://www.omrimallis.com/posts/understanding-how-llm-inference-works-with-llama-cpp/)|Web Link|
+
+
+
+
+### 2. vllm
