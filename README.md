@@ -31,6 +31,15 @@ Summary of knowledge on edge computing acceleration in the field of AI
 | AISystem | 关于AI系统的全栈知识介绍| Github  | [Link](https://github.com/chenzomi12/AISystem)|
 | ... | ... | ...|...|
 
+## TBD list
+
+---🚧🚧🚧---
+1. Algorithm: [LLM推理过程量化分析](./Algorithm/Transformer_3.md)
+2. Architecture: [GPU硬件层次介绍](./Architecture/GPU_01.md)
+3. Architecture:[Cuda例程学习](./Architecture/Cuda_00.md)
+4. Inference: [GGUF量化](./Inference/Quantize_Home.md)
+5. Practice: llama.cpp
+
 ## 备注
 
 ✅🚧 ☁️ 🔬 

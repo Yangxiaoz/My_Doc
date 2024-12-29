@@ -23,7 +23,16 @@ Summary of theoretical knowledge on LLM Inference
 | 4 | Page Attention|以操作系统虚拟内存思想启发的KV cache内存管理优化|[站外博客](https://readpaper.feishu.cn/docx/EcZxdsf4uozCoixdU3NcW03snwV)|
 | 5 | Offload|GPU+CPU混合计算内存卸载技术|☁️Todo|
 | 6 | Quantization|LLM参数量化|[Link](./Quantize_Home.md)|
+| 7 | sample TopK 采样|LLM参数量化|☁️Todo|
 | ... | -     |-      | ... |
+
+### 3. LLM模型量化
+
+- 
+
+|  序号 |   名称     | 简介    |地址|
+|:---:|:----: |:---: |:---:|
+
 
 
 
