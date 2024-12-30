@@ -26,12 +26,6 @@ Summary of theoretical knowledge on LLM Inference
 | 7 | sample TopK 采样|LLM参数量化|☁️Todo|
 | ... | -     |-      | ... |
 
-### 3. LLM模型量化
-
-- 
-
-|  序号 |   名称     | 简介    |地址|
-|:---:|:----: |:---: |:---:|
 
 
 
