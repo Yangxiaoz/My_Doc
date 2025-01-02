@@ -36,7 +36,8 @@
 | 序号 | 内容    | 地址    |状态|
 |:---:|:----: |:--- |:---:|
 | 00 | Build and Run|-|☁️Todo|
-| 01 |Understanding how LLM inference works with llama.cpp  |[Link](https://www.omrimallis.com/posts/understanding-how-llm-inference-works-with-llama-cpp/)|Web Link|
+| 01 | GGML 框架|-|☁️Todo|
+| 02 |Understanding how LLM inference works with llama.cpp  |[Link](https://www.omrimallis.com/posts/understanding-how-llm-inference-works-with-llama-cpp/)|Web Link|
 
 
 
