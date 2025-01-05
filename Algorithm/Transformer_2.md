@@ -49,9 +49,7 @@
 
 此过程与SelfAttention最大区别是，多了一个Linear线性映射层。那么怎样通俗的理解这一层在做什么呢？
 
-![](../images/06.png)
-
-
+![引用](../images/06.png)
 
 
 ## Pre-filling and Decoding Stage
@@ -121,6 +119,10 @@ Pre-filling 和 Decoding。让我们通过具体的例子来说明这两个过�
 而之前介绍KV Cache时我们知道，Q矩阵在计算完成之后就被扔掉了。只有K、V会保存下来供后续计算使用。那么在Group_num=2时，我们的KV Cache缓存需求就直接被压缩减少了一半。
 
 但是这样的压缩并不是免费的，肯定会对模型性能造成一定的影响。但是对于一些超大的上千亿参数的llm来说，进行适当的分组后，可以带来很好的KV压缩，并且只会略微影响模型性能。
+
+而事实上，这种类似的方法最先提出于**Multi-Query Attention**，其是一种极端的策略，即假设K和V都只有一组仅仅对Q进行多头计算。对比图下所示：
+
+![](../images/MQAttention.png)
 
 ---
 

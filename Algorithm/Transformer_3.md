@@ -2,13 +2,12 @@
 
 to Integration and summary list:
 1. [知乎：分析transformer模型的参数量、计算量、中间激活、KV cache](https://zhuanlan.zhihu.com/p/624740065)
-2. [知乎：llama结构解读](https://zhuanlan.zhihu.com/p/649756898)
-3. [offload论文：量化分析范文](https://proceedings.mlr.press/v202/sheng23a.html)
-4. [模型部署概念](https://blog.csdn.net/qq_44753080/article/details/137409437)
+2. [offload论文：量化分析范文](https://proceedings.mlr.press/v202/sheng23a.html)
+3. [模型部署概念](https://blog.csdn.net/qq_44753080/article/details/137409437)
 
 ---
 
-## 1. Prefilling and Decoding（kv cache）
+
 
 ## 2. Model parameters
 

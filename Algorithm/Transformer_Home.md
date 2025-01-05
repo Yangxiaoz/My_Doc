@@ -22,7 +22,7 @@
 |:---:|:----- |:--- |:---:| 
 | 1 | 前言---Transformer与LLM的概念解释与理解|[Link](./Transformer_0.md)| ✅Done|
 | 2 |理解Attention---从人类思考过程理解Attention算子|[Link](./Transformer_1.md)| ✅Done|
-| 3 | 图解LLM推理完整流程---Attention算子|[Link](./Transformer_2.md)| ✅Done|
+| 3 | 图解LLM推理流程---Attention算子|[Link](./Transformer_2.md)| ✅Done|
 | 4 | LLM推理过程量化分析：weight、kvcache、flops|[Link](./Transformer_3.md)| 🚧Unfinished|
 
 
