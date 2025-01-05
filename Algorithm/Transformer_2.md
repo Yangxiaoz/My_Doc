@@ -56,15 +56,30 @@
 
 ## Pre-filling and Decoding Stage
 
-到了这里，我们知道了在LLM中attention算子的基本计算流程。但是在实际应用过程中，我们知道，LLM中的attention是基于Transformer中的decode解码部件设计的。那么到底什么是decode，或者说，decode和encode的最大区别是什么？
+到了这里，我们知道了在LLM中attention算子的基本计算流程。
+但是在实际应用过程中，我们知道，LLM中的attention是基于Transformer中的decode解码部件设计的。
+那么到底什么是decode，或者说，decode和encode的最大区别是什么？
 
-答案是Mask屏蔽操作，即在decode流程中，Q矩阵中的元素只和标号小于或等于起自身的K、V进行attention操作。也就是假设输入了10个Token，相应会产生10对Q、K、V。那么第五个Token产生的Q，只会与前五个K、V进行attention，而不会和后续的K、V发生计算。
+答案是Mask屏蔽操作，即在decode流程中，Q矩阵中的元素只和标号小于或等于起自身的K、V进行attention操作。
+也就是假设输入了10个Token，相应会产生10对Q、K、V。那么第五个Token产生的Q，只会与前五个K、V进行attention，
+而不会和后续的K、V发生计算。
 
-也正是因为这样的特性，使得LLM在推理过程中，分为了两个阶段：Pre-filling 和 Decoding。让我们通过具体的例子来说明这两个过程：
+也正是因为这样的特性，使得LLM在推理过程中，分为了两个阶段：
+Pre-filling 和 Decoding。让我们通过具体的例子来说明这两个过程：
 
-假设你对GPT输入句子：“你好，你是谁？”。那么首先，GPT需要一次性这句话的7个Token并行一次性输入模型，进行计算，这个阶段就叫做**Pre-filling预填充**。这个过程也是我们之前在理解Multi-Attention的图解所描述的过程。
+假设你对GPT输入句子：“你好，你是谁？”。那么首先，GPT需要一次性这句话的7个Token并行一次性输入模型，
+进行计算，这个阶段就叫做**Pre-filling预填充**。这个过程也是我们之前在理解Multi-Attention的图解所描述的过程。
 
-而在并行处理完用户输入的所有提示词prompt之后，便开始生成第一个预测的Token，然后将生成的Token重新与之前所有的Token进行Attention，从而生成下一个Token，不断往复。这一个过程，也就叫做**Decoding解码过程**。
+而之前所说的**Mask屏蔽操作**，主要也是在Pre-filling阶段发生的。即在每个Token并行流入模型后，当前计算的Token_i（
+输入序列S中第i个Token记为下标i）在进行attention时，所生成的Q_i只会与下标j小于或等于i的K_j、V_j进行计算，
+当j大于i时，便会被Mask为0，从而不进行attention。
+
+而在并行处理完用户输入的所有提示词prompt之后，便开始生成第一个预测的Token，
+然后将生成的Token重新与之前所有的Token进行Attention，从而生成下一个Token，不断往复。这一个过程，
+也就叫做**Decoding解码过程**。
+
+而因为在Decoding阶段，每次输入的Token只有一个（即上次输出生成的token），所以不用考虑Mask屏蔽的问题。
+（因为此时所有的KV都是当前Token之前产生的）。直接计算即可。
 
 ## KV Cache
 
@@ -95,7 +110,7 @@
 
 用上图的流程进行举例：假设输入的token数量S=3，模型d_model=12，也就是原本有一个3x12的输入Token矩阵。如果要使用4个头的Multi-Attention。那么就需要将这个3*12的矩阵映射为4个小矩阵，而每个小矩阵的现状必须为：Sx（d_modle/num_head）= 3 x (12 /4) = 3x3的矩阵。
 
-所以说,Multi-Attention是在遵循Q、K、V数据量不变的前提下，将其映射到多个通道，来寻求模型能够学到不同特征的attention。
+所以说,Multi-Attention是在遵循Q、K、V数据量不变的前提下，将其映射到多个通道，从而希望模型能够学到不同特征的attention。
 
 而Group Attention的思想是：**在进行Multi-Head多头映射时，保留Q矩阵映射前后矩阵数据量不变的特性，但是对K和V进行分组缩放。** 如下图所示：
 
