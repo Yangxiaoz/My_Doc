@@ -20,7 +20,7 @@
 | 方法名称  | 简介       | 原文（论文）地址  |  相关介绍  |
 |:---:|:---:|:---:|:---:|
 | llm.int8()量化 | 混合精度量化| [Link](https://arxiv.org/abs/2208.07339)|[Link](https://towardsdatascience.com/introduction-to-weight-quantization-2494701b9c0c)|
-| GPTQ | 4bit量化技术| [Link](https://arxiv.org/abs/2210.17323)|[Link](https://towardsdatascience.com/4-bit-quantization-with-gptq-36b0f4f02c34)|
+| GPTQ | 4bit量化技术| [Link](https://arxiv.org/abs/2210.17323)|[Link1](https://towardsdatascience.com/4-bit-quantization-with-gptq-36b0f4f02c34)&[Link2](https://huggingface.co/docs/transformers/quantization/gptq)|
 | GGUF | Llama.cpp使用的量化结构，支持CPU、GPU混合运算| [Link](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)|[Link](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)|
 | ... | ... | ...|...|
 
