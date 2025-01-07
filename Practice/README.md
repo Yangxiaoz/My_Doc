@@ -29,7 +29,15 @@
 | yalm |  LLM inference in C++/CUDA, no libraries except for I/O(专注于原理、代码可读性的科研实验项目) |[Link](https://github.com/andrewkchan/yalm)| C++|
 
 
-## 二、项目部署记录
+## 二、部署学习记录
+
+### 1. GGML框架
+
+| 序号 | 内容    | 地址    |状态|
+|:---:|:----: |:--- |:---:|
+| 00 | Introduction of GGML and Manual Usage|[Link](./GGML_Home.md)|🚧 Unfinished|
+| 01 | GGML Manual，源码学习手册|[Link](./GGML_guide.md)|🔬Researching|
+| 02 |  -  |-|-|
 
 ### 1. llama.cpp
 
