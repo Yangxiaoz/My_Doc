@@ -36,7 +36,7 @@
 | 序号 | 内容    | 地址    |状态|
 |:---:|:----: |:--- |:---:|
 | 00 | Introduction of GGML and Manual Usage|[Link](./GGML_Home.md)|🚧 Unfinished|
-| 01 | GGML Manual，源码学习手册|[Link](./GGML_guide.md)|🔬Researching|
+| 01 | GGML Manual，源码学习手册|[Link](./GGML_Guide.md)|🔬Researching|
 | 02 |  -  |-|-|
 
 ### 1. llama.cpp
