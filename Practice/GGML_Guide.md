@@ -10,7 +10,7 @@
 
 ***注意！buffer本身并不存储数据，其只是一个数据访问与数据操作的接口。并且buffer里的context指针与下文中的ggml_context不是一回事***
 
-![ggml_buffer](../images/ggml_buffer.png)
+![ggml_buffer](../images/GGML_Buffer.png)
 
 具体的buffer实现于ggml-backend-imp.h文件,详解注释：[Link](./GGML_man/ggml-backend-impl.md#1-ggml_backend_buffer)
 
