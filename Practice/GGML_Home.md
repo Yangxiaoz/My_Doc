@@ -1,13 +1,8 @@
 # GGML深度学习框架
 
 
-to read list:
 
-[Hugging face 基础示例教程](https://huggingface.co/blog/zh/introduction-to-ggml)
-
-[B站视频教程](https://www.bilibili.com/video/BV1GAC9YXE5Q/?spm_id_from=333.999.0.0&vd_source=ffd358de576192fb36c26e0aa712f76f)
-
-## Introduction
+## 一、 Introduction
 
 [ggml](https://github.com/ggerganov/ggml) 是一个用 C 和 C++ 编写、专注于 Transformer 架构模型推理的机器学习库。该项目完全开源，处于活跃的开发阶段，开发社区也在不断壮大。ggml 和 PyTorch、TensorFlow 等机器学习库比较相似，但由于目前处于开发的早期阶段，一些底层设计仍在不断改进中。
 
@@ -24,6 +19,14 @@ to read list:
 - 支持张量的量化: 张量可以被量化，以此节省内存，有些时候甚至还提升了性能。
 - 内存使用高效到了极致: 存储张量和执行计算的开销是最小化的。
 
-## 框架学习指南：
+## 二、 学习目录：
 
-1. [Link](GGML_Guide.md)
+| 序号 | 内容    | 地址    |状态|
+|:---:|:----: |:--- |:---:|
+| 00 | 快速开始与学习方法介绍|[Link](./GGML_quickStart.md)|🔬Researching|
+| 01 | GGML核心概念解析|[Link](./GGML_Guide.md)|🔬Researching|
+| 02 | 源码注释目录  |[Link](./GGML_man/README.md)|🔬Updating|
+
+
+
+

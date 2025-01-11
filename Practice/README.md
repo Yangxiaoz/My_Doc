@@ -31,23 +31,18 @@
 
 ## 二、部署学习记录
 
-### 1. GGML框架
+
 
 | 序号 | 内容    | 地址    |状态|
 |:---:|:----: |:--- |:---:|
-| 00 | Introduction of GGML and Manual Usage|[Link](./GGML_Home.md)|🚧 Unfinished|
-| 01 | GGML Manual，源码学习手册|[Link](./GGML_Guide.md)|🔬Researching|
-| 02 |  -  |-|-|
-
-### 1. llama.cpp
-
-| 序号 | 内容    | 地址    |状态|
-|:---:|:----: |:--- |:---:|
-| 00 | Build and Run|-|☁️Todo|
-| 01 | GGML 框架|[Link](./GGML_Home.md)|🔬Researching|
-| 02 |Understanding how LLM inference works with llama.cpp  |[Link](https://www.omrimallis.com/posts/understanding-how-llm-inference-works-with-llama-cpp/)|Web Link|
+| 00 | GGML 深度学习框架学习|[Link](./GGML_Home.md)|🔬Researching|
+| 01 | llama.cpp项目学习|-|☁️Todo|
+| 02 |  llama.cpp on Nvidia 部署过程  |-|☁️Todo|
 
 
 
 
-### 2. vllm
+
+
+
+
