@@ -30,7 +30,7 @@ ggml_context是一个装载各类对象 (如张量、计算图、其他数据) �
 
 ***注意！在ggml_context中object链表节点后面所存储的Tensor、Graph等并不是数据本身，而是对应数据的信息与索引。例如可以通过Tensor的信息表得知tensor的类型，和其真实数据地址还有对应buffer接口的地址。***
 
-![](../images/ggml_context.png)
+![contex](../images/ggml_context.png)
 
 在容器中几个比较重要的成员如下：
 
@@ -58,7 +58,12 @@ ggml_context是一个装载各类对象 (如张量、计算图、其他数据) �
 
 ③ ggml_backend_sched：一个调度器，使得多种后端可以并发使用，在处理大模型或多 GPU 推理时，实现跨硬件平台地分配计算任务 (如 CPU 加 GPU 混合计算)。该调度器还能自动将 GPU 不支持的算子转移到 CPU 上，来确保最优的资源利用和兼容性。
 
+- 对于ggml来说，初始化一个backend后端设备，核心步骤是：   
+1.首先初始化一个ggml_backend,这里的ggml_backend对象代表的是后端设备的类型，而不是只具体的某个设备。   
+2.初始化ggm_device，这里的ggml_deviece就是只具体的某个设备，例如后端GPU拥有两块4090显卡，那么ggml_backend结构体内部就应该有两个device设备。   
+3.初始化ggml_reg,每个device设备的注册函数。
 
+<<<<<<<<<这里需要插入图片>>>>>>>>>
 
 
 ### 5. ggml_gallocr
