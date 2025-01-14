@@ -23,5 +23,8 @@ GGML是一个使用c、c++搭建的深度学习推理框架，该框架没有任
 
 在代码阅读过程中，可以查阅：[源码注释手册](./GGML_man/README.md)
 
----
-> Clink here to lear how the ggml works : [Next](./GGML_Guide.md) 
+### 三、Mnist demo代码结构解读
+
+具体关于mnist 代码的整体流程可以查看飞书文档链接：[思维导图链接](https://n02lxruxa4.feishu.cn/wiki/HPGjwT7FAiyZttkNCErcl7lXnKg?from=from_copylink)
+
+
