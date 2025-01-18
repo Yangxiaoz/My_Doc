@@ -40,7 +40,9 @@
 我们可以从下图中看到，Transformer的原始架构真的就是这么简单，只是Attention与Feed Forward模块的堆叠。注意：这里的Feed Forward就是多层感知机/全连接层（只是作者起了个高大上的名字）当然，图中还有很多细节，例如Embedding、Self-Attention、Multi-Attention....，将会在后续章节中详细介绍。
 
 
-![Transformer论文原图](../images/01.png#center)
+<p align="center">
+  <img src="../images/01.png" alt="transformer">
+</p>
 
 再通俗一点讲，你可以理解为Transformer就是由原原本本的全连接神经网络，每一个样本都会对其余样本进行全连接，只不过在进行全连接之前，使用了Attention模块根据注意力机制的得分对全连接网络中的权重参数W进行了调整。即注意到有关联的，保留其后续全连接时的权重，让其能够参与关联。而注意到没有关系的样本，之间将其全连接时的权重至0或者变小，让其在全连接时不能正常被关联学习到。
 
