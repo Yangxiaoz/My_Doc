@@ -56,4 +56,4 @@ ggml项目源码连接： [Link](https://github.com/ggerganov/ggml)
 
 而本系列后续会记录如何学习ggml的过程、一些关键的概念与源码解析，最终到llama.cpp项目的完整源码学习与概念解读
 
-> Next part: ggml框架学习：[LInk](./GGML_Home.md)
+> Next part: ggml框架学习：[LInk](./GGML_Guide.md)
