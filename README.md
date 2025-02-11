@@ -35,12 +35,11 @@ Summary of knowledge on edge computing acceleration in the field of AI
 
 ---🚧🚧🚧---
 
-1. ~~Inference: Group Attention 原理~~✅
-2. ~~GGML框架学习~~✅
-3. Architecture: [GPU硬件层次介绍](./Architecture/GPU_01.md)🔬
-4. Nvidia nsight 性能分析工具使用🔬
-5. Architecture:[Cuda例程学习](./Architecture/Cuda_00.md)☁️
-6. Algorithm: [LLM推理过程量化分析](./Algorithm/Transformer_3.md)☁️
+1. llama.cpp推理流程学习🔬
+2. Architecture: [GPU硬件层次介绍](./Architecture/GPU_01.md)☁️
+3. Cuda [例程学习](./Architecture/Cuda_00.md)与Nvidia nsight 性能分析工具使用☁️
+4. Algorithm: [LLM推理过程量化分析](./Algorithm/Transformer_3.md)☁️
+
 
 ## 备注
 
