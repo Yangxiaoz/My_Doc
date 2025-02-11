@@ -26,6 +26,7 @@
 |:---:|:----: |:---:|:---:|
 | top | Linux 系统内置的性能监控工具|-|☁️Todo|
 | htop |Linux 系统性能监控工具--增强版|-|☁️Todo|
+| rusage |进程系统资源统计根据（虚拟内存分页等..）|-|[Link](https://justine.lol/rusage/#download)|
 | ps |静态进程信息分析工具|-|☁️Todo|
 
 
@@ -35,6 +36,7 @@
 |:---:|:----: |:---:|:---:|
 | perf | Linux 内核提供的性能分析工具|Web|[Link](https://www.brendangregg.com/perf.html)|
 | oprofile |一个基于采样的系统性能分析工具|-|☁️Todo|
+
 
 
 ### 3. trace 追踪工具
