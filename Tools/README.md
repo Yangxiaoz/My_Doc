@@ -4,12 +4,12 @@
 
 
 
-## 嵌入式开开发
+## 开发工具
 
 | 名称  | 简介       | 源自    |地址|
 |:---:|:----: |:---: |:---:|
 | GDB调试 | C调试器与自动化脚本使用教程|by yxl|[Link](./GDB.md)|
-| objdump | 反汇编与二进制文件分析工具|-|☁️Todo|
+| git工作流 | git相关基础命令与基础工作流|-|☁️Todo|
 | Makefile | 关于makefile编译教程|Web|[Link](https://seisman.github.io/how-to-write-makefile/)|
 | Missing Semester of Your CS Education | Linux基础操作命令教程  |Github | [Link](https://missing-semester-cn.github.io/) |
 | Cmake | ..|-|☁️[Todo](./Cmake.md)|
