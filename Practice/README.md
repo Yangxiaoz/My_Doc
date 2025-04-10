@@ -35,9 +35,9 @@
 
 | 序号 | 内容    | 地址    |状态|
 |:---:|:----: |:--- |:---:|
-| 01 | llama.cpp项目概念简介|[Link](./Llama_cpp.md)|✅Done|
+| 01 | llama.cpp项目概念简介|[Link](./Llamacpp0.md)|✅Done|
 | 00 | GGML 深度学习框架学习|[Link](./GGML_Guide.md)|✅Done|
-| 01 | llama.cpp项目学习|-|☁️Todo|
+| 01 | llama.cpp核心概念：cgraph计算图|[Link](./Llamacpp1.md)|🚧 TBD|
 | 02 |  llama.cpp on Nvidia 部署过程  |-|☁️Todo|
 
 
