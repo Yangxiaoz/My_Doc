@@ -74,6 +74,7 @@ git rebase --onto <newbase> <upstream> <branch = local_brach>
 
 ```bash
 #版本追踪
+git branch -vv                      #查看本地分支上下游跟踪情况
 git branch --set-upstream-to=local_base <target_branch>  
                                     # 为分支设置上游为 local_base
 git rebase                          # 无需指定分支名,快速变基
