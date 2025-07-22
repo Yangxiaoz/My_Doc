@@ -25,8 +25,8 @@
 
 | 名称  | 简介  |  源自|  地址|
 |:---:|:----: |:---:|:---:|
-| top | Linux 系统内置的性能监控工具|-|☁️Todo|
-| htop |Linux 系统性能监控工具--增强版|-|☁️Todo|
+| top | Linux 系统内置的性能监控工具|-|-|
+| htop |Linux 系统性能监控工具--增强版|-|-|
 | rusage |进程系统资源统计根据（虚拟内存分页等..）|-|[Link](https://justine.lol/rusage/#download)|
 | ps |静态进程信息分析工具|-|☁️Todo|
 
@@ -35,7 +35,8 @@
 
 | 名称  | 简介    |  源自| 地址|
 |:---:|:----: |:---:|:---:|
-| perf | Linux 内核提供的性能分析工具|Web|[Link](https://www.brendangregg.com/perf.html)|
+| perf | Linux 内核提供的性能分析工具|Web|[Manual](https://www.brendangregg.com/perf.html)|
+| iostat |采样CPU使用率、磁盘IO性能（主要用于IO性能分析）|-|[Link](./iostat.md)|
 | oprofile |一个基于采样的系统性能分析工具|-|☁️Todo|
 
 
@@ -56,7 +57,7 @@
 | 名称  | 简介       | 源自    |地址|
 |:---:|:----: |:---: |:---:|
 | Perfetto | 应用程序调用trace文件可视化工具|Web|[Link](https://perfetto.dev/)|
-| Flame Graphs | 直观地展示程序或系统的性能热点的可视化工具|-|☁️Todo|
+| Flame Graphs | 直观地展示程序或系统的性能热点的可视化工具|-|[Link](./Flame.md)|
 | LLM可视化 | LLM结构3D可视化tool|Web|[Link](https://www.mlpod.com/llm-visualization.html)|
 
 
